@@ -11,6 +11,13 @@
                 "ritwickdey.LiveServer",
                 "vsls-contrib.gitdoc"
             ],
+            "settings":      {          
+                "files.exclude": {
+                    ".devcontainer/*": true,
+                    ".devcontainer": true,
+                    "README.md": true,
+                }
+            },
         }
     }
 }
